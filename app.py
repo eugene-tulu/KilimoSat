@@ -128,8 +128,8 @@ def get_gemini_summary(stats):
         return f"NDVI Analysis: Mean={stats['mean']:.2f}, Min={stats['min']:.2f}, Max={stats['max']:.2f}"
 
 # App Configuration
-st.set_page_config(layout="wide", page_title="🌾 MeleleEye")
-st.title("🌾 MeleleEye - Smart Crop Health Monitoring")
+st.set_page_config(layout="wide", page_title="🌾 KilimoSat")
+st.title("🌾 KilimoSat - Smart Crop Health Monitoring")
 st.markdown("""
 Monitor crop health in real-time using satellite imagery  
 Detect diseases, nutrient deficiencies, and get actionable insights for precision agriculture.
@@ -613,7 +613,7 @@ if st.session_state.get('health_analysis'):
 # Footer
 st.markdown("---")
 st.markdown("""
-*🌾 MeleleEye* - Powered by satellite imagery
+**🌾 KilimoSat** - Powered by satellite imagery
 Built with Streamlit, Planetary Computer & STAC API
 """)
 
